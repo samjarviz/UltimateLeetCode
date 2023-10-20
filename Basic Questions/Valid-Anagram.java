@@ -20,9 +20,9 @@ import java.util.HashMap;
 
 class Solution {
   public boolean isAnagram(String s, String t) {
-    //Map the frequency of each character, both strings should be same
+    //Map the frequency of each character, both strings should be same frequency
     //Time: O(n), touch each char once
-    //Space: O(n), fill map with chars
+    //Space: O(1), fill map with only unique chars, max of 26
     
     //---------Edge Case----------------
     if (s.length() != t.length()) {
