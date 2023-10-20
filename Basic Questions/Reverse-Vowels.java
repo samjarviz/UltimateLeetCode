@@ -11,7 +11,8 @@ Input: s= "AEIOU"
 Output: "UOIEA"*/
 
 //-------------Solution--------------------
-// --> Not optimal space, could use two pointers and then swap each vowel
+// --> Not the absolute best, could use two pointers and then swap each vowel
+// Complexities are still the same
 public class Solution {
   public String reverseVowels(String s) {
     //Set of vowels to check for each letter
