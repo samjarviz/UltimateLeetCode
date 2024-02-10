@@ -36,6 +36,7 @@ class Solution {
     //HashMap to store frequency
     //Time: O(n), each element touched once
     //Space: O(n), fill Hashmap with frequencies
+    int pairCount = 0;
     HashMap<Integer,Integer> frequency = new HashMap<>();
     for (int num : nums) {
       frequency.put(num, frequency.getOrDefault(num, 0) + 1);
